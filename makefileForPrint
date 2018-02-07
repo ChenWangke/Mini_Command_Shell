@@ -1,0 +1,4 @@
+print:print.cpp
+	g++ -o print -std=gnu++98 -Wall -Werror print.cpp
+clean:
+	rm -f *~ print
