@@ -43,9 +43,13 @@ In myShell, Run     ./print a b 23
 
 Output:
 './print'
+
 'a'
+
 'b'
+
 '23'
+
 Program exited with status 0
 
 which is correct because './print a b 23' contains a '/' in it, so it searches the current path for the program,
